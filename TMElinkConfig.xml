@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSet>
+  <xs:schema id="Options" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="Options" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Option">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="Variable" type="xs:string" minOccurs="0" />
+                <xs:element name="Setting" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+    <Options>
+      <Option diffgr:id="Option1" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+        <ID>1</ID>
+        <Variable>TME IP Address</Variable>
+        <Setting>192.168.1.94</Setting>
+      </Option>
+      <Option diffgr:id="Option2" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+        <ID>2</ID>
+        <Variable>Output Folder</Variable>
+        <Setting>c:\TMElink\output</Setting>
+      </Option>
+      <Option diffgr:id="Option3" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+        <ID>3</ID>
+        <Variable>FTP Client Folder</Variable>
+        <Setting>C:\camLine\Test FTP Client</Setting>
+      </Option>
+      <Option diffgr:id="Option4" msdata:rowOrder="3" diffgr:hasChanges="inserted">
+        <ID>4</ID>
+        <Variable>Gauge equip #</Variable>
+        <Setting>123456</Setting>
+      </Option>
+      <Option diffgr:id="Option5" msdata:rowOrder="4" diffgr:hasChanges="inserted">
+        <ID>5</ID>
+        <Variable>Station Name</Variable>
+        <Setting>Assembly 2</Setting>
+      </Option>
+      <Option diffgr:id="Option6" msdata:rowOrder="5" diffgr:hasChanges="inserted">
+        <ID>6</ID>
+        <Variable>Logout time (min)</Variable>
+        <Setting>30</Setting>
+      </Option>
+      <Option diffgr:id="Option7" msdata:rowOrder="6" diffgr:hasChanges="inserted">
+        <ID>7</ID>
+        <Variable>Password</Variable>
+        <Setting>asdf</Setting>
+      </Option>
+      <Option diffgr:id="Option8" msdata:rowOrder="7" diffgr:hasChanges="inserted">
+        <ID>8</ID>
+        <Variable>Test Type</Variable>
+        <Setting>LEAK</Setting>
+      </Option>
+    </Options>
+  </diffgr:diffgram>
+</DataSet>
